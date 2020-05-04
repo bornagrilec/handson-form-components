@@ -36,7 +36,6 @@ const RegisterForm = (props) => {
                     type="password"
                     id="password"
                     name="password"
-                    onBlur={handlePasswordValidation}
                     required />
                 <FormInputValidation></FormInputValidation>
             </FormRow>
